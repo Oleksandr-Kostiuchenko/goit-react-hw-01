@@ -26,7 +26,6 @@ const TransactionHistory = ({ transactions }) => {
 
       <tbody>
         {transactions.map((element, index) => {
-          console.log(tableClsxArr[index]);
           return (
             <tr className={style[tableClsxArr[index]]} key={element.id}>
               <TransactionHistoryItem data={element} />
