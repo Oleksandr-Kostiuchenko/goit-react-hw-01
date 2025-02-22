@@ -8,8 +8,6 @@ const FriendListItem = ({ friend: { name, avatar, isOnline } }) => {
     statusClsx.push(css.offline);
   }
 
-  console.log(statusClsx.join(" "));
-
   return (
     <div className={css.friendContainer}>
       <img className={css.friendImg} src={avatar} alt="Avatar" width="48" />

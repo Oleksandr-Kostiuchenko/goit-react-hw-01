@@ -1,0 +1,21 @@
+.tableContainer {
+  width: 400px;
+  background-color: #6e6e6e;
+}
+
+.tableTitlesContainer {
+  background-color: #313030;
+  color: aliceblue;
+}
+
+.tableTitle {
+  border: 3px black solid;
+}
+
+.tableDataWhite {
+  background-color: #fff;
+}
+
+.tableDataGray {
+  background-color: #646262;
+}
